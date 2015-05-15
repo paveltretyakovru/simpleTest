@@ -1,0 +1,29 @@
+object FMain: TFMain
+  Left = 410
+  Top = 339
+  Width = 495
+  Height = 347
+  Caption = 'Simple Test'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  Menu = MMain
+  OldCreateOrder = False
+  Position = poDesktopCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object MMain: TMainMenu
+    Left = 8
+    Top = 264
+    object test: TMenuItem
+      Caption = #1058#1077#1089#1090
+      object create: TMenuItem
+        Caption = #1057#1086#1079#1076#1072#1090#1100'...'
+        OnClick = createClick
+      end
+    end
+  end
+end

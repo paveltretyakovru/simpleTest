@@ -1,0 +1,32 @@
+unit UMain;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, Menus, {подключил} UCreate;
+
+type
+  TFMain = class(TForm)
+    MMain: TMainMenu;
+    test: TMenuItem;
+    create: TMenuItem;
+    procedure createClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FMain: TFMain;
+implementation
+
+{$R *.dfm}
+
+procedure TFMain.createClick(Sender: TObject);
+begin
+  FCreate.Show;
+end;
+
+end.

@@ -1,0 +1,2 @@
+[Error] UCreate.pas(100): Type 'TQuestion' needs finalization - not allowed in file type
+[Fatal Error] PSimpleTest.dpr(6): Could not compile used unit 'UCreate.pas'
